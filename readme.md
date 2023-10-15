@@ -6,6 +6,7 @@
 ## Contents
 
 - [AWS Owned Topics](#aws-owned-topics)
+    - [General Topics](#general-topics)
     - [Pricing Topics](#pricing-topics)
     - [AMI Topics](#ami-topics)
     - [Dataset Topics](#dataset-topics)
@@ -23,9 +24,16 @@ These are topics owned and updated by AWS.
 | Name | Topic | Example |
 | ---- | ----- | ------- |
 |[IP Ranges](http://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html)| `arn:aws:sns:us-east-1:806199016981:AmazonIpSpaceChanged`| [Event](Events.md#amazon-ip-space-changed)|
-| [Price Change SNS](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html)| `arn:aws:sns:us-east-1:278350005181:price-list-api`|  [Event](Events.md#price-list-api) |
+| [AWS CodeBuild Local Agent Notifications](https://docs.aws.amazon.com/codebuild/latest/userguide/use-codebuild-agent.html)| `arn:aws:sns:us-east-1:850632864840:AWS-CodeBuild-Local-Agent-Updates`|  [Event](Events.md#codebuild-local-agent-updates-list-api) |
 | [Daily Aggregated Price Change SNS](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html)| `arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api`| [Event](Events.md#daily-aggregated-price-list-api) ||
 | [AWS Daily Feature Updates](https://aws.amazon.com/blogs/aws/subscribe-to-aws-daily-feature-updates-via-amazon-sns/) | `arn:aws:sns:us-east-1:692768080016:aws-new-feature-updates` | [Event](Events.md#aws-daily-feature-updates) |
+
+### Pricing Topics
+
+| Name | Topic | Example |
+| ---- | ----- | ------- |
+| [Price Change SNS](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html)| `arn:aws:sns:us-east-1:278350005181:price-list-api`|  [Event](Events.md#price-list-api) |
+| [Daily Aggregated Price Change SNS](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html)| `arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api`| [Event](Events.md#daily-aggregated-price-list-api) ||
 
 ### AMI Topics
 | Name | Topic | Example |
